@@ -12,3 +12,4 @@ export const GET = async (request) => {
     return new Response("Failed to fetch all Blogs", { status: 500 });
   }
 };
+export const dynamic="force-dynamic";
